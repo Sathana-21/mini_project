@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danger Zone Monitoring and Alert System</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: white;
+        }
+
+        header {
+            background: #cc0000;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .section {
+            background: #1a1a1a;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #cc0000;
+            border-radius: 6px;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #ff3333;
+        }
+
+        .alert-box {
+            padding: 15px;
+            background: #330000;
+            border: 2px solid #ff0000;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background: #111;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #bbbbbb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Danger Zone Monitoring and Alert System
+    </header>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>
+                The Danger Zone Monitoring and Alert System is designed to detect hazardous conditions in real-time 
+                using smart sensors and automated alert mechanisms. This system helps prevent accidents by 
+                continuously analyzing environmental data and notifying authorities or individuals when unsafe 
+                situations arise.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Real-time monitoring of sensitive locations.</li>
+                <li>Automated detection of danger conditions.</li>
+                <li>Instant alerts through alarms, messages, or dashboards.</li>
+                <li>Data logging and activity tracking.</li>
+                <li>Easy integration with IoT devices and sensors.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Live Status</h2>
+            <div class="alert-box">
+                ⚠ No Immediate Threat Detected
+            </div>
+            <p>You can modify this area to dynamically show alert messages using JavaScript or sensor data.</p>
+        </div>
+
+        <div class="section">
+            <h2>Applications</h2>
+            <ul>
+                <li>Industrial safety monitoring</li>
+                <li>Restricted area surveillance</li>
+                <li>Fire and gas leak detection</li>
+                <li>Public hazards and emergency management</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2024 Danger Zone Monitoring Project – All Rights Reserved
+    </div>
+
+</body>
+</html>
